@@ -1,4 +1,97 @@
+body {
+  background-color: rgb(47, 71, 53);
+}
+
+#frame {
+  background-color: rgb(78, 50, 8);
+  border: black solid 6px;
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 5px;
+}
+
+#container {
+  background-color: rgb(222, 211, 195);
+  width: 95%;
+  margin: 0 auto;
+  border: solid black 6px;
+  padding: 0 5px;
+}
+
+.section {
+  margin-bottom: 2px;
+}
+
+.content {
+  background-color: rgb(245, 212, 166);
+  border-left: solid black 3px;
+  border-right: solid black 3px;
+  border-bottom: 2px solid;
+  overflow: hidden;
+}
+
+.description p {
+  font-style: italic;
+}
+p {
+  padding: 5px;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  width: 100%;
+	border: none;
+}
+
+ul,
+ol,
+hr,
+h2 {
+  margin: 0;
+}
+details {
+  text-align: center;
+}
+
+h1,
+h2 {
+  background-color: rgb(209, 168, 106);
+  border: solid 4px black;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 4px;
+  margin-bottom: 1em;
+}
+
 img {
-	width: 80%;
-	height: 400px;
+  width: auto;
+  height: 300px;
+  border: solid 1px black;
+}
+
+a,
+details {
+  color: rgb(67, 47, 9);
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+a:hover {
+  font-weight: lighter;
+}
+
+details:hover {
+  color: rgb(67, 47, 9);
+  font-weight: bolder;
+}
+
+a:active {
+  font-weight: bolder;
 }

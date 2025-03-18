@@ -1,0 +1,51 @@
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+	background-color: rgb(47, 71, 53);
+}
+
+#card {
+	max-width: 50%;
+	margin: 20px auto;
+	border: solid black 3px;
+	padding: 0.2em;
+	background-color: rgb(222, 211, 195);
+	overflow: clip;
+}
+
+h1 {
+	margin: 0;
+	border: black double 4px;
+	text-align: center;
+	background-color: rgb(209, 168, 106);
+	overflow-x: clip;
+}
+
+hr {
+	height: 2px;
+	background-color: black;
+	max-width: 30%;
+	border: none;
+}
+
+ul {
+	list-style: disc outside;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bolder;
+	color: rgb(144, 81, 4)
+}
+
+a:visited {
+	color: rgb(255, 89, 0)
+}
+
+a:active {
+	font-weight: lighter;
+}
