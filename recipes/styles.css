@@ -1,10 +1,16 @@
 body {
   background-color: rgb(47, 71, 53);
+  font-family: system-ui;
+  color: rgb(73, 50, 19)
 }
 
+* {
+  box-sizing: border-box;
+}
 #frame {
   background-color: rgb(78, 50, 8);
   border: black solid 6px;
+  border-radius: 10px;
   margin: 20px auto;
   max-width: 500px;
   padding: 5px;
@@ -12,9 +18,9 @@ body {
 
 #container {
   background-color: rgb(222, 211, 195);
-  width: 95%;
   margin: 0 auto;
   border: solid black 6px;
+  border-radius: 10px;
   padding: 0 5px;
 }
 
@@ -23,10 +29,7 @@ body {
 }
 
 .content {
-  background-color: rgb(245, 212, 166);
-  border-left: solid black 3px;
-  border-right: solid black 3px;
-  border-bottom: 2px solid;
+  background-color: rgb(223, 219, 213);
   overflow: hidden;
 }
 
@@ -50,15 +53,18 @@ hr,
 h2 {
   margin: 0;
 }
+
 details {
   text-align: center;
 }
 
 h1,
 h2 {
-  background-color: rgb(209, 168, 106);
-  border: solid 4px black;
+  background-color: rgba(187, 174, 154, 0.626);
+  border: solid 3px black;
   text-align: center;
+  border-radius: 10px;
+  font-family: sans-serif;
 }
 
 h1 {

@@ -24,8 +24,9 @@ h1 {
 	overflow-x: hidden;
 	font-family: sans-serif;
 	margin-bottom: 50px;
-	padding-bottom: 0.4em;
+	padding: 0.4em 0;
 	border-bottom: 8px double rgb(73, 50, 19);
+	background-color: rgb(201, 188, 171);
 	border-radius: 40px;
 	margin-top: 10px;
 
