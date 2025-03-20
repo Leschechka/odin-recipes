@@ -1,45 +1,70 @@
 body {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: system-ui, 'Times New Roman', Times, serif;
 	font-size: 25px;
 	background-color: rgb(47, 71, 53);
+	color: rgb(73, 50, 19);
+}
+
+* {
+	overflow: hidden;
 }
 
 #card {
-	max-width: 50%;
 	margin: 20px auto;
-	border: solid black 3px;
-	padding: 0.2em;
+	border: solid rgb(71, 32, 32) 7px;
+	border-radius: 30px;
+	padding: 0.5em;
 	background-color: rgb(222, 211, 195);
 	overflow: clip;
+	max-width: 70%;
 }
 
 h1 {
-	margin: 0;
-	border: black double 4px;
 	text-align: center;
-	background-color: rgb(209, 168, 106);
-	overflow-x: clip;
+	overflow-x: hidden;
+	font-family: sans-serif;
+	margin-bottom: 50px;
+	padding-bottom: 0.4em;
+	border-bottom: 8px double rgb(73, 50, 19);
+	border-radius: 40px;
+	margin-top: 10px;
+
 }
 
 hr {
 	height: 2px;
 	background-color: black;
-	max-width: 30%;
 	border: none;
+	width: 100%;
 }
 
 ul {
-	list-style: disc outside;
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+	margin-top: 0;
+}
+
+li {
+	display: inline-block;
+	width: 60%;
+	padding: 5px;
+	margin-bottom: 10px;
+	background-color: rgba(187, 174, 154, 0.626);
+	text-align: center;
+	border: black solid 2px;
+	border-radius: 100px;
 }
 
 a {
-	color: black;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 }
 
-a:hover {
+li:hover {
 	font-weight: bolder;
-	color: rgb(144, 81, 4)
+	color: rgb(144, 81, 4);
+	width: 90%;
 }
 
 a:visited {
